@@ -1,0 +1,21 @@
+$default: #FFFFFF;
+$title: #1B3764;
+$btn:#FFCA42;
+
+%inter {
+	font-family: 'Inter-Regular', sans-serif;
+	font-weight: 400;
+}
+%cardo {
+	font-family: 'Cardo-Regular', sans-serif;
+	font-weight: 400;
+}
+
+%btn {
+	color: $title;
+	background-color: $btn;
+	padding: 18px 52px;
+	&:active {
+		background-color: #ffe090;
+	}
+}
